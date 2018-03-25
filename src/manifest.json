@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon-on-128.png",
+      "default_title": "Chrome Extension Icon Tester"
+   },
+   "description": "Chrome extension for testing Chrome extension icons displayed in Google Chrome toolbar.",
+   "homepage_url": "http://www.mikechambers.com/blog/2011/07/06/jtv-live-a-google-chrome-extension-for-justin-tv/",
+   "icons": {
+       "16":"images/icon-on-16.png",
+       "32":"images/icon-on-32.png",
+       "48":"images/icon-on-48.png",
+       "64":"images/icon-on-64.png",
+       "128":"images/icon-on-128.png"
+   },
+   "manifest_version": 2,
+   "name": "Chrome Extension Icon Tester",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.95",
+   "web_accessible_resources": [ "images/icon.png" ]
+}
