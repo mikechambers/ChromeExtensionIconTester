@@ -3,9 +3,10 @@ Chrome Extension Icon Tester
 
 Goggle Chrome extension for testing Chrome extension icons displayed in Google Chrome toolbar.
 
-Create by Mike Chambers (mikechambers@gmail.com)
+Create by Mike Chambers (blog)[http://mikechambers.com/blog/2018/03/25/google-chrome-extension-for-testing-chrome-extension-icons/] | (mikechambers@gmail.com)
 
-[https://github.com/mikechambers/pizone](https://github.com/mikechambers/pizone)
+
+[https://github.com/mikechambers/ChromeExtensionIconTester](https://github.com/mikechambers/ChromeExtensionIconTester)
 
 
 # Usage

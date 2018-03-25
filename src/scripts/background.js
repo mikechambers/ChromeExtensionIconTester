@@ -5,6 +5,7 @@
 
 	http://www.mikechambers.com
     https://github.com/mikechambers/ChromeExtensionIconTester
+    http://mikechambers.com/blog/2018/03/25/google-chrome-extension-for-testing-chrome-extension-icons/
 
 
     The MIT License (MIT)
