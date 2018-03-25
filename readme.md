@@ -15,7 +15,7 @@ Testing your icons involves a couple of steps:
 1. Install extension
 2. Create your icons, and export at appropriate sizes
 3. Add icon paths to the src/scripts/background.js file
-4. Reload extension in chrome://extensions/
+4. Reload extension in [chrome://extensions/](chrome://extensions/)
 5. Toggle through icons by clicking the icon on the Chrome toolbar
 
 ## Installation
@@ -32,17 +32,18 @@ You can find information on creating icons for Chrome extensions [here](https://
 
 In general, you need to create multiple sizes (16px, 32px, 48px, 64px and 128px) and Chrome will use the appropriate size depending on screen resolution. For testing, you can just create the largest size, and Chrome will automatically resize it.
 
-The project includes an Illustrator file setup with two artboards (on and off modes). If you go to File > Export Screens, it is automatically configured to resize the artboard and export at all of the appropriate sizes.
+The project includes an Illustrator file setup with two art-boards (on and off modes). If you go to `File > Export Screens`, it is automatically configured to resize the art-board and export at all of the appropriate sizes.
 
-Icons should be exported to the src/images directory.
+Icons should be exported to the `src/images` directory.
 
 ## Add Icon Entries to background.js
 
-Once your icons have been exported, you need to add them to the src/scripts/background.js file. Note, if you are only testing two icons states, you can just overwrite the existing icons in src/images and you will not need edit the background.js file.
+Once your icons have been exported, you need to add them to the `src/scripts/background.js` file. Note, if you are only testing two icons states, you can just overwrite the existing icons in `src/images` and you will not need edit the `background.js` file.
 
 By default, it is configured to toggle between two sets of icons, although you can add as many as you like.
 
-```let icons = [
+```
+let icons = [
 	//icon 1
 	{
 	    "path":{
@@ -68,8 +69,8 @@ By default, it is configured to toggle between two sets of icons, although you c
 	    "text":"On",
 	    "color": "#FF0000" //clear
 	}
-];```
-
+];
+```
 
 You can also add a badge and text by setting the "text" and "color" properties. Color can be specified as a CSS value, such as #FF0000, or as an RGBA array of values (between 0 and 255) such as [255, 0, 0, 255].
 
@@ -90,6 +91,6 @@ Your new icons should now be displayed in the Chrome toolbar.
 
 You can now toggle through the icons and badges by clicking the icon in the toolbar.
 
-If something doesnt seems to work, you can view errors by navigating to [chrome://extensions/](chrome://extensions/) and click "inspect views background page" for the Chrome Extension Icon card.
+If something doesn't seems to work, you can view errors by navigating to [chrome://extensions/](chrome://extensions/) and click "inspect views background page" for the Chrome Extension Icon card.
 
 

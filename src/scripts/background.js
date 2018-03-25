@@ -4,6 +4,7 @@
 	mikechambers@gmail.com
 
 	http://www.mikechambers.com
+    https://github.com/mikechambers/ChromeExtensionIconTester
 
 
     The MIT License (MIT)

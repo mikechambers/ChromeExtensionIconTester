@@ -8,7 +8,7 @@
       "default_title": "Chrome Extension Icon Tester"
    },
    "description": "Chrome extension for testing Chrome extension icons displayed in Google Chrome toolbar.",
-   "homepage_url": "http://www.mikechambers.com/blog/2011/07/06/jtv-live-a-google-chrome-extension-for-justin-tv/",
+   "homepage_url": "https://github.com/mikechambers/ChromeExtensionIconTester",
    "icons": {
        "16":"images/icon-on-16.png",
        "32":"images/icon-on-32.png",
