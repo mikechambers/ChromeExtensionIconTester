@@ -1,7 +1,7 @@
 Chrome Extension Icon Tester
 ======
 
-Extension for icons for extensions displayed in Google Chrome toolbar.
+Goggle Chrome extension for testing Chrome extension icons displayed in Google Chrome toolbar.
 
 Create by Mike Chambers (mikechambers@gmail.com)
 
