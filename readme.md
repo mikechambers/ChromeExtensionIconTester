@@ -68,7 +68,7 @@ let icons = [
 	        "128":"images/icon-off-128.png"
 	    },
 	    "text":"On",
-	    "color": "#FF0000" //clear
+	    "color": "#FF0000" //red
 	}
 ];
 ```
